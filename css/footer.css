@@ -10,7 +10,6 @@
 .footer-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
 }
 
 .footer-logo {
@@ -44,6 +43,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-left: 120px;
 }
 
 .footer-subscribe {
@@ -51,6 +51,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-left: auto;
 }
 
 .subscribe-form {
@@ -63,7 +64,7 @@
     font-family: inherit;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 24px;
     letter-spacing: 0.04em;
     color: white;
     border: 1px solid white;
@@ -78,21 +79,26 @@
 }
 
 .subscribe-input:focus {
-    border-color: 1px solid #31d0aa;
+    border-color: #31d0aa;
 }
 
 .subscribe-form-icon {
-    fill: white;
-    
+    fill: white;    
 }
 
 .subscribe-input::placeholder {
     font-family: inherit;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 24px;
     letter-spacing: 0.04em;
     color: white;
+}
+
+.subscribe-input,
+.subscribe-input::placeholder {
+    font-size: 12px;
+    line-height: 24px;
 }
 
 .subscribe-button {
